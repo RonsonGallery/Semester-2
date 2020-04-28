@@ -222,7 +222,7 @@ public class Test {
 				StringBuilder dot = new StringBuilder(textField.getText());
 				String extra = dot.toString();
 				int len = textField.getText().length();
-				if((len > 0) && (extra.charAt(len-1))!='.') {
+				if((len > 0) && (extra.charAt(len-1))!='.'&&!(extra.contains("."))) {
 					textField.setText(textField.getText() + '.');
 				}
 			}
