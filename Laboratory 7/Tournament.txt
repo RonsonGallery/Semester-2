@@ -1,0 +1,4 @@
+Ronson,50
+Bronson,30
+Johnson,20
+Dwayne "The Rock" Johnson,50
